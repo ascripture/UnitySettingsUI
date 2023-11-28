@@ -1,0 +1,37 @@
+.select {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url('project://database/Assets/Packs/UI/DarkLandsUI/Artworks/Gui/UiElements/Button_Item_common.png?fileID=2800000&guid=3359cf8ed9820ef42acd6f9f47085bbb&type=3#Button_Item_common');
+    height: 48px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.select_left {
+    width: 16px;
+    height: 16px;
+    background-image: url('project://database/Assets/Packs/UI/CleanFlatIcon/png_128/icon/icon_arrow/icon_arrow_11.png?fileID=2800000&guid=f65663fa960b40c4ab74a018c9975575&type=3#icon_arrow_11');
+}
+
+.select_right {
+    width: 16px;
+    height: 16px;
+    background-image: url('project://database/Assets/Packs/UI/CleanFlatIcon/png_128/icon/icon_arrow/icon_arrow_12.png?fileID=2800000&guid=7b239d7406ddfb440bd650f9654df469&type=3#icon_arrow_12');
+}
+
+.select_value {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.select:focus {
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-color: rgb(255, 255, 255);
+    border-right-color: rgb(255, 255, 255);
+    border-top-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(255, 255, 255);
+}

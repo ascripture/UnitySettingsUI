@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/Game/UI/Core/Components/Select/Select.uss?fileID=7433441132597879392&amp;guid=dadf5c592fe0c1647a9e42124ed55f4e&amp;type=3#Select" />
+    <ui:VisualElement name="select" focusable="true" class="select" style="background-color: rgba(0, 0, 0, 0);">
+        <ui:VisualElement name="left" class="select_left" style="background-color: rgba(0, 0, 0, 0);" />
+        <ui:Label tabindex="-1" text="Label" display-tooltip-when-elided="true" name="value" class="select_value" style="margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0;" />
+        <ui:VisualElement name="right" class="select_right" style="background-color: rgba(0, 0, 0, 0);" />
+    </ui:VisualElement>
+</ui:UXML>

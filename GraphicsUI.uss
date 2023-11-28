@@ -1,0 +1,18 @@
+.main-menu_items {
+    flex-grow: 1;
+    background-color: rgba(0, 0, 0, 0);
+    position: absolute;
+    left: 50%;
+    padding-left: 48px;
+    padding-right: 48px;
+    padding-top: 36px;
+    padding-bottom: 36px;
+    justify-content: flex-start;
+    transition-duration: 1.5s;
+    transition-timing-function: ease-in-out;
+    translate: -50% -50%;
+    top: 50%;
+    align-items: center;
+    width: 512px;
+    height: 512px;
+}

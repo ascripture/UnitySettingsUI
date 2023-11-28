@@ -1,0 +1,21 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="Select" src="project://database/Assets/Game/UI/Core/Components/SelectUI/SelectUI.uxml?fileID=9197481963319205126&amp;guid=6744f6f6b924590459cd7a7eb299dc12&amp;type=3#SelectUI" />
+    <ui:Template name="VisualAction" src="project://database/Assets/Game/UI/Core/Components/VisualAction/VisualAction.uxml?fileID=9197481963319205126&amp;guid=9116f0ce944800d449ab41fb6cd4da14&amp;type=3#VisualAction" />
+    <Style src="project://database/Assets/Game/UI/SettingsUI/GraphicsUI/GraphicsUI.uss?fileID=7433441132597879392&amp;guid=d9f2cce52d2d51147b134417f82206e6&amp;type=3#GraphicsUI" />
+    <ui:VisualElement style="background-color: rgba(0, 0, 0, 0.8);" />
+    <ui:VisualElement name="menuItems" class="main-menu_items animate-root" style="align-items: flex-start;">
+        <ui:VisualElement style="background-color: rgba(0, 0, 0, 0); position: absolute; left: 0; top: 0; right: 0; bottom: 0; background-image: url(&apos;project://database/Assets/Packs/UI/DarkLandsUI/Artworks/Gui/UiElements/Login_window.png?fileID=2800000&amp;guid=052b01e4307f821428ab2e929d2e5243&amp;type=3#Login_window&apos;);" />
+        <ui:VisualElement style="flex-grow: 0; background-color: rgba(0, 0, 0, 0); width: 250px; margin-bottom: 8px;">
+            <ui:Label tabindex="-1" text="Label" display-tooltip-when-elided="true" name="displayResolutionLabel" style="font-size: 20px; color: rgb(255, 255, 255);" />
+            <ui:Instance template="Select" name="displayResolution" />
+        </ui:VisualElement>
+        <ui:VisualElement style="flex-grow: 0; background-color: rgba(0, 0, 0, 0); width: 250px; margin-bottom: 8px;">
+            <ui:Label tabindex="-1" text="Label" display-tooltip-when-elided="true" name="qualityLabel" style="font-size: 20px; color: rgb(255, 255, 255);" />
+            <ui:Instance template="Select" name="quality" />
+        </ui:VisualElement>
+        <ui:VisualElement style="flex-grow: 0; background-color: rgba(0, 0, 0, 0); align-self: stretch; margin-top: auto; flex-direction: row; justify-content: space-around;">
+            <ui:Instance template="VisualAction" name="back" style="flex-grow: 0;" />
+            <ui:Instance template="VisualAction" name="confirm" style="flex-grow: 0;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
